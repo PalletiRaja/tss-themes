@@ -1,11 +1,19 @@
 {
   "name": "tss-themes",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Tss Themes is a collection of rich UI components for Angular. All widgets are open source and free to use.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PalletiRaja/tss-themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PalletiRaja/tss-themes/issues"
+  },
+  "homepage": "https://github.com/PalletiRaja/tss-themes#readme"
 }

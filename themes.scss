@@ -11,11 +11,14 @@ body {
 @import 'variables.scss';
 @import 'mixins.scss';
 .ts-widget{
-    @include default-border(blue, 1px); 
-    padding: $padding15
+    @include default-border(); 
+    padding: $padding15;
+    background-color: $white;
+    border-radius: $br5;
 }
 .ts-widget-title {
     @include large-text;
+    @include default-border(#f00, 1px); 
     padding: 4px;
     margin-top: 10px;
   }

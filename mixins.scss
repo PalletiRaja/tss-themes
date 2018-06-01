@@ -7,10 +7,10 @@
     }
     color: #ff0000;
 }
-@mixin default-border($colorGreen, $width1) {
+@mixin default-border($colorAsh, $width1) {
     border: {
-      color: $colorGreen;
+      color: $colorAsh;
       width: $width1;
-      style: dashed;
+      style: solid;
     }
   }
