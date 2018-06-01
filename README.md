@@ -35,4 +35,4 @@ Configure required styles at the styles section, example below  theme.
 ],
 ```
 
-That is all, you may now Use Tss Theme Styles, for a working example visit the [PrimeNG CLI QuickStart sample](https://github.com/primefaces/primeng-quickstart-cli) at GitHub.
+That is all, you may now Use Tss Theme Styles, for a working example visit the [PrimeNG CLI QuickStart sample](https://github.com/PalletiRaja/tss-themes) at GitHub.
