@@ -1,0 +1,21 @@
+html, body, ul, ol {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    font: 100% Helvetica, sans-serif;
+    background-color: #efefef;
+}
+// Import SCSS files here
+
+@import 'variables.scss';
+@import 'mixins.scss';
+.ts-widget{
+    @include default-border(blue, 1px); 
+    padding: $padding15
+}
+.ts-widget-title {
+    @include large-text;
+    padding: 4px;
+    margin-top: 10px;
+  }
