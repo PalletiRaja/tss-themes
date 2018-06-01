@@ -14,6 +14,7 @@ body {
     padding: $padding15;
     background-color: $white;
     border-radius: $br5;
+    @include default-border(#ccc, 1px); 
 }
 .ts-widget-title {
     @include large-text;
