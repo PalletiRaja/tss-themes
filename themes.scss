@@ -7,9 +7,9 @@ body {
     background-color: #efefef;
 }
 // Import SCSS files here
-
 @import 'variables.scss';
 @import 'mixins.scss';
+
 .ts-widget{
     padding: $padding15;
     background-color: $white;
@@ -21,4 +21,4 @@ body {
     @include default-border(#f00, 1px); 
     padding: 4px;
     margin-top: 10px;
-  }
+}
