@@ -3,7 +3,7 @@ html, body, ul, ol {
     padding: 0;
   }
 body {
-    font: 100% Helvetica, sans-serif;
+    // font: 100% Helvetica, sans-serif;
     background-color: #efefef;
 }
 // Import SCSS files here
@@ -14,7 +14,45 @@ body {
     padding: $padding15;
     background-color: $white;
     border-radius: $br5;
-    @include default-border(#ccc, 1px); 
+    @include default-border(#ccc, 1px);
+    .ts-widget-header{
+        background-color: $lightGray;
+        padding: $padding15 $padding15;
+        @include border-bottom();
+    } 
+    .ts-widget-content{
+        background-color: $white;
+        padding: $padding15 $padding15;
+    } 
+    .ts-widget-footer{
+        @include border-top();
+        background-color: $lightGray;
+        padding: $padding15 $padding15;
+    }
+}
+.ts-panel{
+    padding: $padding15;
+    background-color: $white;
+    border-radius: $br5;
+    @include default-border(#ccc, 1px);
+    .ts-panel-header{
+        background-color: $panelBg;
+        padding: $padding15 $padding15;
+        border-top-left-radius: $br5;
+        border-top-right-radius: $br5;
+        @include border-bottom();
+    } 
+    .ts-panel-content{
+        background-color: $white;
+        padding: $padding15 $padding15;
+    } 
+    .ts-panel-footer{
+        @include border-top();
+        background-color: $panelBg;
+        padding: $padding15 $padding15;
+        border-bottom-left-radius: $br5;
+        border-bottom-right-radius: $br5;
+    }
 }
 .ts-widget-title {
     @include large-text;
