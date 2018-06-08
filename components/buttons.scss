@@ -1,0 +1,19 @@
+button{
+    padding: $padding5 $padding10;
+    border: 1px solid $gray;
+    background-color: $white;
+    border-radius: $br5;
+    cursor: pointer;
+    &:hover{
+        background-color: #ccc;
+    }
+    &.ts-button-primary{
+        border: 1px solid $primary;
+        background-color: $primary;
+        color: $white;
+        &:hover{
+            background-color: $primaryHover;
+            border: 1px solid $primaryHover;
+        }
+    }
+}
