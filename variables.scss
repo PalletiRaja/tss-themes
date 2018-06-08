@@ -3,11 +3,24 @@
 $border: 1px solid #ccc;
 
 // Border Radius
+$br3: 3px;
 $br5: 5px;
+
+//Box Shadows
+$boxShadow: 0px 0px 5px #000000;
+
+// Colors
+$white: #ffffff;
+$black: #000000;
+$green: #00ff00;
+$ash: #ccc;
+$lightGray:#cdcdcd;
+$panelBg:#f2f2f2;
 
 // Paddings
 $padding0: 0px;
 $padding5: 5px;
+$padding7: 7px;
 $padding10: 10px;
 $padding15: 15px;
 $padding20: 20px;
@@ -22,10 +35,9 @@ $margin20: 20px;
 // Widths
 $width1: 1px;
 $width100: 100px;
+$width150: 150px;
+$vw100: 100vw;
 
-// Colors
-$white: #ffffff;
-$green: #00ff00;
-$ash: #ccc;
-$lightGray:#cdcdcd;
-$panelBg:#f2f2f2;
+// Heights
+$vh100: 100vh;
+

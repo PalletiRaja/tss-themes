@@ -1,0 +1,22 @@
+.ts-field-text{
+    @include default-border();
+    padding: $padding7;
+    border-radius: $br3;
+    display: block;
+    width: 100%;
+    &:focus{
+        box-shadow: $boxShadow;
+        outline: 0;
+    }
+}
+.ts-field-select{
+    @include default-border();
+    padding: $padding7;
+    border-radius: $br3;
+    display: block;
+    width: 100%;
+    &:focus{
+        box-shadow: $boxShadow;
+        outline: 0;
+    }
+}

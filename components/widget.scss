@@ -1,0 +1,26 @@
+.ts-widget{
+    padding: $padding15;
+    background-color: $white;
+    border-radius: $br5;
+    @include default-border();
+    .ts-widget-header{
+        background-color: $lightGray;
+        padding: $padding15 $padding15;
+        @include border-bottom();
+    } 
+    .ts-widget-content{
+        background-color: $white;
+        padding: $padding15 $padding15;
+    } 
+    .ts-widget-footer{
+        @include border-top();
+        background-color: $lightGray;
+        padding: $padding15 $padding15;
+    }
+}
+.ts-widget-title {
+    @include large-text;
+    @include default-border(); 
+    padding: 4px;
+    margin-top: 10px;
+}
