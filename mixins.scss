@@ -34,3 +34,10 @@
     style: solid;
   }
 }
+@mixin tableBorder() {
+  border: {
+    color: $tableBorder;
+    width: $width1;
+    style: solid;
+  }
+}
