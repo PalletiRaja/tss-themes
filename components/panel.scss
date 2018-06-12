@@ -3,7 +3,7 @@
     border-radius: $br5;
     @include default-border();
     .ts-panel-header{
-        background-color: $panelBg;
+        background-color: $panelHeadBg;
         padding: $padding15 $padding15;
         border-top-left-radius: $br5;
         border-top-right-radius: $br5;
@@ -15,7 +15,7 @@
     } 
     .ts-panel-footer{
         @include border-top();
-        background-color: $panelBg;
+        background-color: $panelHeadBg;
         padding: $padding15 $padding15;
         border-bottom-left-radius: $br5;
         border-bottom-right-radius: $br5;
